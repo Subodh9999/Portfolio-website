@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subodh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">
+            <a href="#hero">Subodh</a>
+        </h2>
+
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero reveal">
+        <h1>I am <span class="typing"></span></h1>
+        <p>Freelance Web Developer</p>
+
+        <div class="hero-buttons">
+
+            <!-- Email Button -->
+            <a href="mailto:subodhbhangre56@gmail.com?subject=Project%20Collaboration&body=Hi%20Subodh,%20I%20would%20like%20to%20discuss%20a%20project%20with%20you."
+                class="btn email-btn">
+
+                <i class="fa-solid fa-envelope"></i> Email Me
+            </a>
+
+            <!-- WhatsApp Button -->
+            <a href="https://wa.me/918591334668?text=Hi%20Subodh,%20I%20want%20to%20discuss%20a%20project%20with%20you."
+                target="_blank" class="btn whatsapp-btn">
+
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio reveal">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+
+            <!-- Featured Project -->
+            <div class="card featured">
+                <img src="images/digital-agency.webp" alt="Digital Agency Website">
+
+                <h3>Digital Agency Landing Page</h3>
+
+                <p>
+                    Fully responsive digital agency website built using
+                    HTML, CSS and JavaScript. Optimized for performance
+                    and deployed on Vercel.
+                </p>
+
+                <div class="tech-stack">
+                    <span>React.js</span>
+                    <span>JavaScript</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Vite</span>
+                    <span>Vercel</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://digital-agency-landing-three.vercel.app/" target="_blank">
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/Subodh9999/digital-agency-landing" target="_blank">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- GrowthNest Digital Marketing Website-->
+            <div class="card">
+                <img src="images/growthnest.webp" alt="GrowthNest Digital Marketing Website">
+
+                <h3>GrowthNest – Digital Marketing Website</h3>
+
+                <p>
+                    A modern digital marketing agency website designed to showcase
+                    services, branding strategy, and lead generation features.
+                    Built with responsive layout, clean UI sections, and optimized
+                    performance for fast loading experience.
+                </p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Vite</span>
+                    <span>Vercel</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://growthnest-digital-marketing.vercel.app/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/Subodh9999/digital-marketing-website" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Landing Page -->
+            <div class="card">
+                <img src="images/taskflow.webp" alt="TaskFlow SaaS Website">
+
+                <h3>TaskFlow – SaaS Website</h3>
+
+                <p>
+                    A modern SaaS landing page designed for a productivity platform.
+                    Built with responsive layout, smooth UI sections and deployed on Vercel.
+                </p>
+
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Vercel</span>
+                </div>
+
+                <div class="project-links">
+                    <a href="https://taskflow-saas-ten.vercel.app/" target="_blank">
+                        Live Demo
+                    </a>
+
+                    <a href="https://github.com/Subodh9999/taskflow-saas" target="_blank">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal">
+        <h2>Contact Me</h2>
+
+        <form action="https://formsubmit.co/subodhbhangre2003@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Subodh | Freelance Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
